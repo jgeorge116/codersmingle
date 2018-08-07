@@ -1,0 +1,88 @@
+.logo_container{
+	
+	height: 50px;
+}
+
+.logo{ 
+	font-size: 36px;
+	color: inherit;
+	float: left;
+	width: 30vw;
+	padding: 0px 55vw 0px 10px;
+	/*top right bottom left*/
+
+}
+
+.welcome{
+	height: 600px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 144px;
+	padding: 228px 0px 0px 0px;
+}
+
+.parallax { 
+	/* The image used */
+	background-image: url("images/parallax.jpg");
+
+	/* Set a specific height */
+	height: 100vh; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.default{
+	background-color: black;
+	color: white;
+	font-family: "Monospace", Courier, san-serif;
+}
+
+.heading_option{
+	display: block;
+	padding: 8px;
+	background-color: #686868;
+	color: white;
+	text-align: center;
+	height: 50px;
+	vertical-align: middle;	
+}
+
+.heading_option_selected{
+	display: block;
+	padding: 8px;
+	background-color: #686868;
+	color: white;
+	text-align: center;
+	height: 50px;
+	vertical-align: middle;	
+}
+
+.heading_option:hover{
+	background-color: #383838;
+}
+	
+.incorrect_input{
+	background-color: #ff0000; 
+}
+.heading_ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #686868;
+
+
+}
+
+.option_button{
+	padding: 10px 10px 10px 10px;
+	margin: 10px;
+}
+
+.heading_li{
+	float: left;
+}
+

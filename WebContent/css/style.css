@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
+body{
+  font-family: 'Muli', sans-serif;
+  background: url("https://imageshack.com/a/img923/4286/vYk8EW.png");
+}
+a {
+    font-family: 'Damion', cursive;
+    font-weight: 400;
+    color: #4caf50;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+}
+label {
+	font-family: 'Damion', cursive;
+    font-weight: 400;
+    color: #F36C8C;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+}
+.instructions {
+	font-family: 'Damion', cursive;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    left: 100px
+}
+
+.btn{
+	padding: 10px 20px 11px !important;
+	font-size: 21px !important;
+	background-color: #F36C8C;
+	font-weight: bold;
+	text-shadow: 1px 1px #F36C8C;
+	color: #ffffff;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border: 1px solid #F36C8C;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.btn:hover {
+  background-color: #ed1b4a;
+}
+
+.option_button{
+	padding: 10px 20px 10px !important;
+	font-size: 30px !important;
+	background-color: #F36C8C;
+	font-weight: normal;
+	text-shadow: 1px 1px #F36C8C;
+	color: #ffffff;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border: 1px solid #F36C8C;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.option_button:hover {
+  background-color: #ed1b4a;
+}
+ 
+
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+ 
+li {
+  height: 25px;
+  float: right;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+ 
+li:last-child {
+  border-right: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #f7849d;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+li a:hover {
+  color: #ed1b4a;
+}
+ 
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
+
+h2:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    top: 22px;
+    background: #4caf50;
+    height: 1px;
+}
+h2 i {
+    font-style: normal;
+    background: #fff;
+    position: relative;
+    padding: 10px;
+}
+:focus{outline: none;}
+
+/* necessary to give position: relative to parent. */
+input[type="text"]{font: 15px/24px 'Muli', sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+
+:focus{outline: none;}
+
+.form-group{float: left; width: 90%; margin: 0px 3%; position: relative;} /* necessary to give position: relative to parent. */
+input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+
+.form-control {border: 0; padding: 5px 0 7px; border: 1px solid transparent; border-bottom-color: #ccc; transition: 0.4s;}
+
+.form-control:focus,{padding: 5px 14px 7px; transition: 0.4s;}
+
+.form-control ~ .focus-border{position: absolute; height: 36px; bottom: -1px; left: 0; width: 0; transition: 0.4s;}
+.form-control:focus ~ .focus-border{width: 100%; transition: 0.4s; border: 2px solid #F36C8C;}
